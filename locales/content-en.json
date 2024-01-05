@@ -1,0 +1,35 @@
+{
+    "form": {
+        "name": "Name",
+        "type": "Type",
+        "category": "Category",
+        "email": "Email",
+        "mobileNumber": "Mobile Number",
+        "address": "Address",
+        "zipCode": "Zip Code",
+        "submit": "Submit",
+        "gst": "GST",
+        "isGovCertified": "Is Government Certified?",
+        "selectType": "Select Type",
+        "enterGST": "Enter GST Number",
+        "noCategory": "No Categories",
+        "noType": "No Types Available"
+        
+    },
+
+    "profile": {
+        "title": "User Profile"
+    },
+
+    "header": {
+        "vendorManagement": "Vendor Management",
+        "profile": "Profile",
+        "home": "Home",
+        "admin": "Admin"
+    },
+
+    "admin": {
+        "categoryManagement": "Category Management",
+        "typeManagement": "Type Management"
+    }
+}

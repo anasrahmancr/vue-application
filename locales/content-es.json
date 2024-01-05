@@ -1,0 +1,36 @@
+{
+    "form": {
+        "name": "Nombre",
+        "type": "Tipo",
+        "category": "Categoría",
+        "email": "Correo electrónico",
+        "mobileNumber": "Número de teléfono móvil",
+        "address": "Dirección",
+        "zipCode": "Código postal",
+        "submit": "rendirse",
+        "gst": "Impuesto",
+        "isGovCertified" : "Está certificado por el gobierno?",
+        "selectType": "seleccionar tipo",
+        "enterGST": "Número de identificación fiscal",
+        "noCategory": "Sin categorías",
+        "noType": "Sin tipos"
+
+    },
+
+    "profile": {
+        "title": "Perfil de usuario"
+    },
+
+    "header": {
+        "vendorManagement": "Gestión de proveedores",
+        "profile": "Perfil",
+        "home" : "Casa",
+        "admin": "Admin"
+    },
+
+    "admin": {
+        "categoryManagement": "Gestión de categorías",
+        "typeManagement": "Gestión de tipos"
+    }
+
+}
