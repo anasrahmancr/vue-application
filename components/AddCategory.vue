@@ -32,6 +32,16 @@ export default {
   methods: {
  
     submitCategory() {
+
+      const isDuplicate = this.$store.getters.getCategories.some(category => category.name === this.updatedCategory);
+
+      if (isDuplicate) {
+        console.error("Category with the same name already exists");
+        alert("Enter Unique Categories");
+        this.updatedCategory = ''
+        return;
+      }
+
       this.$store.dispatch('addCategory',{name: this.updatedCategory})
       .then(()=>{
         console.log("Added successfully");

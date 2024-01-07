@@ -222,7 +222,7 @@ export default defineComponent({
             .dispatch("submitForm", this.formData)
             
             .then(() => {
-              const formDatas = this.$store.getters.getFormData;
+                alert("Successfully Completed");
             })
 
             .catch((error) => {

@@ -31,6 +31,16 @@
     methods: {
    
       submitType() {
+
+          const isDuplicate = this.$store.getters.getTypes.some(type => type.name === this.updatedType);
+
+      if (isDuplicate) {
+        console.error("Type with the same name already exists");
+        alert("Enter Unique Type");
+        this.updatedType = ''
+        return;
+      }
+
         this.$store.dispatch('addType',{name: this.updatedType})
         .then(()=>{
           this.isModalVisible = false;
